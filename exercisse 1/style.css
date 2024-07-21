@@ -48,6 +48,7 @@ span:nth-child(4) {
   .content {
     display: flex;
     flex-direction: column;
+    width: -moz-fit-content;
     width: fit-content;
   }
 }
