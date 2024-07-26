@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cubic bezier</title>
+    <style>
+      .container {
+        height: 100vh;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .item > img {
+        width: 150px;
+        height: 250px;
+        transition: width 1s;
+        transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
+      }
+
+      .item > img:hover {
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">
+        <img src="pexels-hikaique-775203.jpg" alt="" />
+      </div>
+      <div class="item">
+        <img src="pexels-ollivves-1433052.jpg" alt="" />
+      </div>
+      <div class="item">
+        <img src="pexels-rpnickson-2486168.jpg" alt="" />
+      </div>
+      <div class="item">
+        <img src="pexels-todd-trapani-488382-1535162.jpg" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
