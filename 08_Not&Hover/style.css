@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.list  {
+    height: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+.list >.item{
+    margin-top: 35%;
+    transition: .3s ease-in-out;
+}
+
+/* .list:hover .item{
+    filter: grayscale(1) blur(10px);
+}
+
+.list:hover .item:hover{
+    filter: none;
+} */
+
+.list:hover .item:not(:hover){
+    filter: grayscale(1) blur(10px);
+
+}
