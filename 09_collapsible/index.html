@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>  
+    <title>Document</title>
+    <style>
+
+       body{
+        width: 80vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+       }
+
+       nav{
+        height: 100px; 
+        margin: 16px;
+        display: flex;
+        justify-content: end;
+       
+       }
+
+       i{
+        
+        width: 64px;
+        
+       }
+
+       header details{
+        position: relative;
+       }
+       header details ul{
+        position: absolute;
+        right: 10%;
+        list-style: none;
+        width: max-content;
+        background-color: rgb(167, 167, 167);
+        border-radius: 20px;
+        padding: 20px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        
+       }
+
+       header details ul li{
+        padding: 5px 15px;
+        cursor: pointer;
+        transition: .2s ease-in-out;
+       }
+
+       header details ul li:hover{
+           color: black;
+       }
+
+       header details summary{
+        list-style: none;
+       }
+
+    </style>
+</head>
+<body>
+    
+
+   <header>
+    <nav>
+        <details open>
+            <summary>
+                <i class="ri-user-line icon"></i>
+            </summary>
+        <ul>
+            <li>Profile</li>
+            <li>Settings</li>
+            <li>Sign Out</li>
+        </ul>
+        </details>
+        
+    </nav>
+   </header>
+    
+</body>
+</html>
