@@ -4,3 +4,296 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.navWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.NavBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90vw;
+  height: 12vh;
+}
+
+.compayIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+.navName {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.navListLinks {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 600px;
+}
+
+.navListLinks > a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 400;
+  color: black;
+  transition: all 200ms ease-out;
+}
+
+.navListLinks > a:hover {
+  color: rgba(92, 189, 157, 0.9);
+}
+
+.socialLinks {
+  list-style: none;
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialLinks > a {
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.hero_Container {
+  background-color: rgba(127, 255, 212, 0.3);
+  width: 45vw;
+  height: 60vh;
+  border-radius: 24px 0px 0px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 48px;
+  gap: 32px;
+}
+
+.hermoImg {
+  width: 45vw;
+  height: 60vh;
+  background-image: url("../assets/Makitchen/beef-steak-free-photo.webp");
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0px 24px 24px 0px;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h3 {
+  font-size: 48px;
+}
+
+.btncont {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.primary {
+  padding: 8px 100px;
+  border: none;
+  background-color: blue;
+  border-radius: 16px;
+  color: white;
+  font-size: 24px;
+  transition: all 200ms ease-out;
+}
+
+.primary:hover {
+  background-color: rgb(72, 72, 253);
+}
+
+.secondary {
+  padding: 8px 80px;
+  border: none;
+  background-color: white;
+  border-radius: 16px;
+  color: black;
+  font-size: 24px;
+  border: solid 2px;
+  transition: all 200ms ease-out;
+}
+
+.secondary:hover {
+  background-color: gainsboro;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.spanInfo {
+  margin: 64px;
+  width: 60vw;
+  text-align: center;
+}
+
+.spanHead {
+  font-size: 48px;
+  margin-bottom: 48px;
+  font-weight: 500;
+}
+
+.spanText {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  width: 90vw;
+  height: max-content;
+  border-radius: 24px;
+  margin: 32px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.card {
+  /* background-color: linear-gradient
+    (60deg, rgba(72, 72, 253, 0.8) rgb(255, 255, 255)); */
+  /* background: rgba(58, 193, 255, 0.2); */
+  background: rgba(127, 255, 212, 0.3);
+  background: linear-gradient(
+    0deg,
+    rgba(127, 255, 212, 1) 0%,
+
+    rgba(127, 255, 212, 0.01) 100%
+  );
+  width: 440px;
+  height: 420px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 32px;
+}
+
+.card > img {
+  width: 400px;
+  border-radius: 24px;
+}
+
+.cardLabel {
+  margin-top: 24px;
+  font-size: 24px;
+}
+
+.info {
+  display: flex;
+  gap: 32px;
+  margin-top: 24px;
+}
+
+.clock {
+  width: 16px;
+}
+
+.categoryIcon {
+  width: 16px;
+}
+
+.prepareTime {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.category {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.socialContent {
+  width: 100vw;
+  background: rgba(127, 255, 212, 0.3);
+  background: linear-gradient(
+    0deg,
+    rgba(127, 255, 212, 1) 0%,
+
+    rgba(127, 255, 212, 0.01) 100%
+  );
+  height: max-content;
+  padding: 64px;
+  margin-top: 40px;
+}
+
+.instCard {
+  background: white;
+  width: 380px;
+  height: 520px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.instCard > img {
+  width: 380px;
+}
+
+.userInfo {
+  width: 360px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.user {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  object-fit: cover;
+  border: 2px solid gray;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.dir {
+  display: flex;
+  flex-direction: column;
+}
+
+.UserName {
+  font-weight: 300;
+}
+
+.userDir {
+  font-weight: 200;
+}
+
+.menuIcon {
+  width: 24px;
+}

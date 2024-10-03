@@ -7,12 +7,285 @@
     <title>landing</title>
   </head>
   <body>
-    <div class="hero_Container">
-      <h1>Main Hero</h1>
-      <h3>Sub theme</h3>
-      <div class="btncont">
-        <button type="button">xplore</button>
-        <button type="button">start</button>
+    <!-- NNAVIGATION BAR -->
+
+    <div class="navWrapper">
+      <navbar class="NavBar">
+        <a href="#" class="compayIcon">
+          <img
+            class="navIcon"
+            src="../assets/icons/bell-svgrepo-com.svg"
+            alt="icon"
+            width="24px"
+          />
+          <span class="navName">TastyTrybe</span>
+        </a>
+
+        <ul class="navLinks">
+          <li class="navListLinks">
+            <a href="#">Home</a>
+            <a href="#">Recipes</a>
+            <a href="#">Chefs</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+          </li>
+        </ul>
+
+        <ul class="socials">
+          <li class="socialLinks">
+            <a href="#">
+              <img
+                src="../assets/icons/facebook (2).png"
+                alt="facebook"
+                width="24px"
+              />
+            </a>
+            <a href="#">
+              <img
+                src="../assets/icons/instagram (1).png"
+                alt="instagram"
+                width="24px"
+              />
+            </a>
+            <a href="#">
+              <img
+                src="../assets/icons/apple-173.svg"
+                alt="apple"
+                width="24px"
+              />
+            </a>
+          </li>
+        </ul>
+      </navbar>
+    </div>
+
+    <!-- HERO SECTION -->
+
+    <hero class="hero">
+      <div class="hero_Container">
+        <h1>Tasty Tribe</h1>
+        <h3>the place for <span style="color: orangered">Food</span> Lovers</h3>
+        <div class="btncont">
+          <button class="secondary" type="button">Explore</button>
+          <button class="primary" type="button">Start</button>
+        </div>
+      </div>
+      <div class="hermoImg"></div>
+    </hero>
+
+    <!-- SPAN INFO -->
+
+    <div class="wrapper">
+      <div class="spanInfo">
+        <h2 class="spanHead">Simple & Tasty Recipes</h2>
+        <h4 class="spanText">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis,
+          assumenda corporis? Mollitia esse magnam cupiditate. Quos, aspernatur
+          maxime cupiditate minima
+        </h4>
+      </div>
+    </div>
+
+    <!-- SOME CARDS -->
+
+    <cards class="cardsContainer">
+      <div class="cards">
+        <card class="card">
+          <img
+            src="../assets/Makitchen/gettyimages-1220200250-612x612.jpg"
+            alt="food"
+          />
+          <h4 class="cardLabel">Ocean Flavored Shrimp</h4>
+          <div class="info">
+            <div class="prepareTime">
+              <img
+                src="../assets/icons/reloj-de-pared.png"
+                class="clock"
+                alt=""
+              />
+              <span>15 minutes</span>
+            </div>
+            <div class="category">
+              <img
+                class="categoryIcon"
+                src="../assets//icons/mug-sauser-svgrepo-com.svg"
+                alt=""
+              />
+              <span>Fish</span>
+            </div>
+          </div>
+        </card>
+        <card class="card">
+          <img
+            src="../assets/Makitchen/360_F_420681228_jOr5WC3fTl4WozvHM2VJaoue8VMX0Uqa.jpg"
+            alt="food"
+          />
+          <h4 class="cardLabel">Omellete du fromage</h4>
+          <div class="info">
+            <div class="prepareTime">
+              <img
+                src="../assets/icons/reloj-de-pared.png"
+                class="clock"
+                alt=""
+              />
+              <span>15 minutes</span>
+            </div>
+            <div class="category">
+              <img
+                class="categoryIcon"
+                src="../assets//icons/mug-sauser-svgrepo-com.svg"
+                alt=""
+              />
+              <span>Fish</span>
+            </div>
+          </div>
+        </card>
+        <card class="card">
+          <img
+            src="../assets/Makitchen/istockphoto-917914612-612x612.jpg"
+            alt="food"
+          />
+          <h4 class="cardLabel">Original sushi & more</h4>
+          <div class="info">
+            <div class="prepareTime">
+              <img
+                src="../assets/icons/reloj-de-pared.png"
+                class="clock"
+                alt=""
+              />
+              <span>15 minutes</span>
+            </div>
+            <div class="category">
+              <img
+                class="categoryIcon"
+                src="../assets//icons/mug-sauser-svgrepo-com.svg"
+                alt=""
+              />
+              <span>Fish</span>
+            </div>
+          </div>
+        </card>
+        <card class="card">
+          <img
+            src="../assets/Makitchen/istockphoto-640305574-612x612.jpg"
+            alt="food"
+          />
+          <h4 class="cardLabel">Natural Fried Salad</h4>
+          <div class="info">
+            <div class="prepareTime">
+              <img
+                src="../assets/icons/reloj-de-pared.png"
+                class="clock"
+                alt=""
+              />
+              <span>15 minutes</span>
+            </div>
+            <div class="category">
+              <img
+                class="categoryIcon"
+                src="../assets//icons/mug-sauser-svgrepo-com.svg"
+                alt=""
+              />
+              <span>healty</span>
+            </div>
+          </div>
+        </card>
+        <card class="card">
+          <img
+            src="../assets/Makitchen/istockphoto-175197961-612x612.jpg"
+            alt="food"
+          />
+          <h4 class="cardLabel">Natural mixeed Salad</h4>
+          <div class="info">
+            <div class="prepareTime">
+              <img
+                src="../assets/icons/reloj-de-pared.png"
+                class="clock"
+                alt=""
+              />
+              <span>15 minutes</span>
+            </div>
+            <div class="category">
+              <img
+                class="categoryIcon"
+                src="../assets//icons/mug-sauser-svgrepo-com.svg"
+                alt=""
+              />
+              <span>healty</span>
+            </div>
+          </div>
+        </card>
+        <card class="card">
+          <img
+            src="../assets/Makitchen/gettyimages-1323846471-612x612.jpg"
+            alt="food"
+          />
+          <h4 class="cardLabel">Enjoy your cooking time</h4>
+          <div class="info">
+            <div class="prepareTime">
+              <img
+                src="../assets/icons/reloj-de-pared.png"
+                class="clock"
+                alt=""
+              />
+              <span>15 minutes</span>
+            </div>
+            <div class="category">
+              <img
+                class="categoryIcon"
+                src="../assets//icons/mug-sauser-svgrepo-com.svg"
+                alt=""
+              />
+              <span>healty</span>
+            </div>
+          </div>
+        </card>
+      </div>
+    </cards>
+
+    <div class="socialContent">
+      <!-- SOCIAL CALL TO ACTIONS -->
+
+      <div class="wrapper">
+        <div class="spanInfo">
+          <h2 class="spanHead">Check out more recipes on Instagram</h2>
+          <h4 class="spanText">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis,
+            assumenda corporis? Mollitia esse magnam cupiditate. Quos,
+            aspernatur maxime cupiditate minima
+          </h4>
+        </div>
+      </div>
+
+      <!-- SOCIAL CARDS -->
+
+      <div class="intagramCardsContainer">
+        <div class="intaCards">
+          <div class="instCard">
+            <div class="userInfo">
+              <div class="contact">
+                <img
+                  class="user"
+                  src="../assets/avatar/christian-buehner-DItYlc26zVI-unsplash.jpg"
+                  alt="userpic"
+                />
+                <div class="dir">
+                  <h5 class="UserName">UserName</h5>
+                  <h6 class="userDir">@user_Name</h6>
+                </div>
+              </div>
+              <img
+                class="menuIcon"
+                src="../assets/icons/three-point-leader-1-svgrepo-com.svg"
+                alt=""
+              />
+            </div>
+            <img
+              src="../assets/Makitchen/gettyimages-628095632-612x612.jpg"
+              alt=""
+            />
+          </div>
+        </div>
       </div>
     </div>
   </body>
